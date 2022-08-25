@@ -1,0 +1,9 @@
+{
+	"name": "testadfmkv1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e3e3ad8-c2d4-4abf-92b0-8b15605f673b",
+		"tenantId": "7ade54ae-8a37-4944-b1e6-e4bb0cbc1fd4"
+	}
+}
