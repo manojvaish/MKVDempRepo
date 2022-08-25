@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "testadfmkv1"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"linkedservices_storagedemomkv_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'linkedservices_storagedemomkv'"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"linkedservices_storagedemomkv_connectionString": {
 						"value": "[parameters('linkedservices_storagedemomkv_connectionString')]"

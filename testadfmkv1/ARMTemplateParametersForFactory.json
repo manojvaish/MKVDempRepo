@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "testadfmkv1"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"linkedservices_storagedemomkv_connectionString": {
 			"value": ""
 		}
